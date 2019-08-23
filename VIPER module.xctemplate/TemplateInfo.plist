@@ -49,31 +49,32 @@
 			<string>Whether to create a XIB file with the same name</string>
 			<key>Type</key>
 			<string>checkbox</string>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>cocoaSubclass</key>
-				<array>
-					<string>NSDocument</string>
-					<string>NSViewController</string>
-					<string>NSWindowController</string>
-				</array>
-			</dict>
 			<key>Default</key>
 			<string>true</string>
 			<key>NotPersisted</key>
 			<true/>
-			<key>Values</key>
-			<array>
-				<string>VIPER</string>
-			</array>
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>DATAMANAGER</string>
+			<string>DataManager</string>
 			<key>Name</key>
 			<string>Data Manager files</string>
 			<key>Description</key>
 			<string>Also create Data Manager files</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Factory</string>
+			<key>Name</key>
+			<string>With module constructor</string>
+			<key>Description</key>
+			<string>Add module constructor method</string>
 			<key>Type</key>
 			<string>checkbox</string>
 			<key>Default</key>
